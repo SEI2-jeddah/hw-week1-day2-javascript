@@ -16,15 +16,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is a number 
+a is 'bongos'
 ```
 2.  What is `b`?
 ```
-b is a String
+b is true
 ```
 3.  What is `c`?
 ```
-c is a boolean 
+c is 'bongos'
 ```
 
 ## Concatenation
@@ -109,13 +109,22 @@ for (var a = 0; a <= 100; a = a + 1)
  {
 
 console.log(a)
+if (a % 3 == 0 && a % 5 == 0 )
+{
+    console.log("fizzBuzz")
+}
 
-if (a % 3 == 0) {
+else if (a % 3 == 0) 
+{
     console.log("fizz")
 }
 
-if (a % 5 == 0) {
+else if (a % 5 == 0) 
+{
     console.log("buzz")
+}
+else {
+    console.log ("Number is neither multiple of 3 nor multiple of 5")
 }
 
 }
