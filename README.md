@@ -16,16 +16,14 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
-```
+a is 'bongos'
+
 2.  What is `b`?
 ```
-b is ...
-```
+b is  true
 3.  What is `c`?
 ```
-c is ...
-```
+c is 'bongos'
 
 ## Concatenation
 Use the `+` operator to concatenate these strings together within a `console.log()`: "Red", "Hot", "Chilli", "Peppers". Make sure there are spaces in-between each word.
@@ -44,7 +42,7 @@ Result should be:
 ### Your solution here:
 4.  Fill in the `console.log()`?
 ```js
-console.log()
+console.log("Red" + " " + " Hot" + " " + "Peppers");
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -57,13 +55,15 @@ const num2 = 10;
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
+let num3 = num1 + num2;
+onsole.log(num3);
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log("he sum of 5 and 10 is " + num3 ) 
 ```
 
 ## Comparisons
@@ -81,19 +81,19 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b)  true
+c)false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## Conditionals
 Declare a variable equal to a number 0 to 100
-
+let num = range(0 , 100)
 Write a conditional statement that...
 - If it is a multiple of 3, print “Fizz” instead of the number.
 - If it is a multiple of 5, print “Buzz” instead of the number.
@@ -104,7 +104,13 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 // your answer here
-```
+var num;
+if (num % 3 === 0)
+{ prompt(" Fizz");}
+else if (num % 5 === 0)
+{ prompt(" Buzz");}
+else if ((num % 5 === 0) && (num % 3 === 0))
+{ prompt(" FizzBuzz");}
 ## Homework Submission
 https://github.com/SEI2-jeddah/General/tree/master/homework_submission
 
