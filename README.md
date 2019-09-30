@@ -16,15 +16,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is  a let int value of 1
 ```
 2.  What is `b`?
 ```
-b is ...
+b is a string value
 ```
 3.  What is `c`?
 ```
-c is ...
+c is booleans value
 ```
 
 ## Concatenation
@@ -39,13 +39,13 @@ const fourthWord = "Peppers";
 Result should be:
 ```js
 "Red Hot Chilli Peppers"
+'
 ```
 
 ### Your solution here:
-4.  Fill in the `console.log()`?
+4.  Fill in the `console.log(firstWord+" "+secondWord+" "+thirdWord+ " " + fourthWord)'
 ```js
-console.log()
-```
+
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
 ```js
@@ -56,39 +56,39 @@ const num2 = 10;
 ### Your solution here:
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
+// your solution here num3 = num1+num2
 ```
-6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
+6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence:
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log("the sum of " + num1 + " and " + num2 + ' is '+ num3 )
 ```
 
 ## Comparisons
 By just looking at the following expressions, determine in your mind whether or not each will evaluate to true or false
 ```
 a) 999 > 999
-b) 999 === 999 
+b) 999 === 999
 c) 999 !== 999
 d) -5 >= -4
 e) 100 <= -100
-f) 20 + 5 < 5 
+f) 20 + 5 < 5
 g) 81 / 9 === 9
 h) 9 !== 8 + 1
 ```
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a)false
+b)True
+c)false
+d)false
+e)False
+f)false
+g)True
+h)false
 ```
 
 ## Conditionals
@@ -100,10 +100,27 @@ Write a conditional statement that...
 - If it is a multiple of both 3 and 5, print “FizzBuzz” instead of the number.
 - Otherwise, print the number
 
-### Your solution here:
+/=### Your solution here:
 8.  Write your javascript solution below
 ```js
 // your answer here
+let num = 9
+if ( 3 * 3 == num) {
+  console.log('Fizz');
+}
+else if (5 * 5 == num ) {
+  console.log(Buzz);
+}
+
+else if (3*3==num && 5*5 == num) {
+  console.log(FizzBuzz);
+
+}
+else {
+  console.log(num);
+}
+
+
 ```
 ## Homework Submission
 https://github.com/SEI2-jeddah/General/tree/master/homework_submission
