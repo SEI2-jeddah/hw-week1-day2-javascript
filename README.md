@@ -81,7 +81,7 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
+a) false
 b)  
 c)
 d) 
