@@ -15,17 +15,18 @@ c = a;
 
 ### Your solution here:
 1.  What is `a`?
-```
+```js
 a is ...
 'bongos'
 2.  What is `b`?
-```
+
 b is ...
 true
 3.  What is `c`?
-```
+
 c is ...
 'bongos'
+```
 
 ## Concatenation
 Use the `+` operator to concatenate these strings together within a `console.log()`: "Red", "Hot", "Chilli", "Peppers". Make sure there are spaces in-between each word.
@@ -79,7 +80,7 @@ h) 9 !== 8 + 1
 ```
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
-```
+```js
 a) false
 b) true
 c) false
@@ -120,7 +121,7 @@ else
 {
     console.log(number);
 }
-
+```
 //we can further improve this classical programming task for job interviews by making a loop to write down all numbers from 0 to 100
 
 ## Homework Submission
