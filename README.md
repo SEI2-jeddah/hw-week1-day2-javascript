@@ -24,7 +24,7 @@ b is string
 ```
 3.  What is `c`?
 ```
-c is boolen
+c is boolean
 ```
 
 ## Concatenation
