@@ -20,11 +20,11 @@ a is an int
 ```
 2.  What is `b`?
 ```
-b is string
+b is a string
 ```
 3.  What is `c`?
 ```
-c is boolean
+c is a boolean
 ```
 
 ## Concatenation
