@@ -104,7 +104,7 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 ```js
-let x = 15
+let x = Math.floor(Math.random() * 101)
 if(x%3 == 0 && x%5 == 0){
 console.log("FizzBuzz")
 }else if(x%3 == 0){
