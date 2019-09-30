@@ -14,16 +14,19 @@ c = a;
 ```
 
 ### Your solution here:
+
 1.  What is `a`?
 ```js
 a is ...
 'bongos'
+```
 2.  What is `b`?
-
+```js
 b is ...
 true
+```
 3.  What is `c`?
-
+```js
 c is ...
 'bongos'
 ```
@@ -58,17 +61,17 @@ const num2 = 10;
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 let num3 = num1 + num2;
+```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
-
-
+```js
 console.log("the sum of "+num1+" and "+num2+" is "+num3);
-
+```
 
 ## Comparisons
 By just looking at the following expressions, determine in your mind whether or not each will evaluate to true or false
-```
+```js
 a) 999 > 999
 b) 999 === 999 
 c) 999 !== 999
@@ -122,7 +125,7 @@ else
     console.log(number);
 }
 ```
-//we can further improve this classical programming task for job interviews by making a loop to write down all numbers from 0 to 100
+
 
 ## Homework Submission
 https://github.com/SEI2-jeddah/General/tree/master/homework_submission
