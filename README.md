@@ -24,7 +24,7 @@ b is true
 ```
 3.  What is `c`?
 ```
-c is 1
+c is bongos
 ```
 
 ## Concatenation
@@ -42,10 +42,10 @@ Result should be:
 ```
 
 ### Your solution here:
-console.log(firstWord + '' + secondWord + '' + thirdWord + '' + fourthtWord)
+
 4.  Fill in the `console.log()`?
 ```js
-
+console.log(firstWord + ' ' + secondWord + ' ' + thirdWord + ' ' + fourthtWord)
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -110,9 +110,9 @@ Write a conditional statement that...
 let number = 3;
 if (number % 3 == 0){
   console.log('Fizz')
-} else if(number % 5 == 0){
+}if(number % 5 == 0){
   console.log('Buzz')
-}else if(number %3 == 0 && number %5 ==0){
+}if(number %3 == 0 && number %5 ==0){
   console.log('FizzBuzz')
 }else{
   console.log(number)
