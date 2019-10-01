@@ -83,14 +83,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) f
-b) t
-c) f
-d) f
-e) f
-f) f
-g) t
-h) f
+a) false
+b) true
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 
