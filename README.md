@@ -108,13 +108,13 @@ Write a conditional statement that...
 ```js
 var number = 21 ;
 if(number%3==0){
- console.log(“Fizz”);
+ console.log("Fizz");
 }
 else if (number%5==0){
- console.log(“Buzz”);
+ console.log("Buzz");
 }
 else if(number%3==0 && number%5==0){
- console.log(“FizzBuzz”);
+ console.log("FizzBuzz");
 }
 ```
 ## Homework Submission
