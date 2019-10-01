@@ -107,7 +107,7 @@ for (var i = 0; i < 100; i++) {
       console.log("fizz");
     }else if (i % 5 === 0) {
       console.log("buzz");
-    }else if (3 * 5 % 3 === 0) {
+    }else if (3 * 5 % i === 0) {
 
       console.log("FizzBuzz");
 
